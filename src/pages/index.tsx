@@ -53,7 +53,7 @@ export default function Home() {
   }, [])
 
   // Check if element is in viewport
-  const isElementInViewport = (el) => {
+  const isElementInViewport = (el: HTMLElement) => {
     const rect = el.getBoundingClientRect()
     return rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.75
   }

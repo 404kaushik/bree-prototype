@@ -628,6 +628,7 @@ export default function Simulator() {
                   <p className="text-lg opacity-90">
                     Try adjusting your monthly savings by just $100 and see how it compounds over {financialData.yearsToProject} years!
                   </p>
+                  <p className='text-xs italic mt-1'>(Note: When you click on save $100, your monthly expenses above decreases by $100, hit update projects to see the change.)</p>
                 </div>
                 <div className="flex-shrink-0">
                   <button 
